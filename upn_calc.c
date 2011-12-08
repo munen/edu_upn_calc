@@ -54,7 +54,7 @@ int main(void) {
 
     // show result
     else if(!strcmp(line, "=\n")) {
-      printf("Ergebnis: %d\n", peek());
+      printf("%d\n", peek());
     }
 
     // process operand
